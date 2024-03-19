@@ -43,9 +43,14 @@ edges[i][0] != edges[i][1]
 
 *SOLUTION*
 
-class Solution:
+
+
+
+    class Solution:
     def maximumWeight(self, n, edges, q, queries):
+       
         # code here
+       
         store = [i for i in range(n+1)]
         sz = [1 for _ in range(n+1)]
         sz[0] = 0
