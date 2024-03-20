@@ -48,7 +48,6 @@ Constraints:
 
 *SOLUTION*
 
-
 class Solution:
     def sumOfLongRootToLeafPath(self,root):
         #code here
